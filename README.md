@@ -64,15 +64,6 @@ It has 3 folders:
    -> **model.pkl**: pickle file of the model
 
    -> **scaler.pkl**: pickle file of the scaler
- 
-# Data Preparation
-The dataset is cleaned by 
-
-removing the unwanted columns for prediction: 'id', 'Unnamed: 32',
-
-converting the output objects to integers
-
-and scaling the values using StandardScaler
 
 
 # Libraries Used
@@ -85,6 +76,15 @@ and scaling the values using StandardScaler
 7. **streamlit**: used to create the user interface, generate sliders, visualize graphs and display predictions
 8. **plotly.graph_objects**: used to create interactive plots and charts
 9. **numpy**: used for numerical operations in data preperation
+ 
+# Data Preparation
+The dataset is cleaned by:
+
+removing the unwanted columns for prediction: 'id', 'Unnamed: 32',
+
+converting the output objects to integers
+
+and scaling the values using StandardScaler.
 
 # Visualization
 Radar charts are useful for displaying multiple quantitative variables.
